@@ -1,0 +1,20 @@
+// CFG
+digraph {
+	"k=False " -> "while[k]"
+	"d=True " -> "Branch[d]"
+	"lks=True " -> "Branch[lks]"
+	"kkl=True " -> "while[kkl]"
+	"while[kkl]" -> "lmn=5 "
+	"lmn=5 " -> "while[kkl]"
+	"lmn=5 " -> "lkl=10 "
+	"Branch[lks]" -> "kkl=True "
+	"lkl=10 " -> " "
+	"Branch[d]" -> "lks=True "
+	" " -> " "
+	"while[k]" -> "d=True "
+	" " -> "while[k]"
+	" " -> "m=True "
+	"m=True " -> "Branch[m]"
+	"Branch[m]" -> "lk=5 "
+	"lk=5 " -> " "
+}
