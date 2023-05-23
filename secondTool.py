@@ -4,7 +4,7 @@
 """
 Created on Fri Sep 25 15:16:28 2020
 
-@author: SUMIT
+
 """
 
 import json
